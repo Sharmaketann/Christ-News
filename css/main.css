@@ -184,6 +184,107 @@ section {
   margin-bottom: 2em;
 }
 
+/* Staff Members  */
+
+.staff-members .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.staff-members .content .box {
+  width: 250px;
+  margin: 15px;
+}
+.staff-members .content .box .imgBox {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.staff-members .content .box .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.staff-members .content .box .text {
+  padding: 15px 0 15px;
+}
+
+.staff-members .content .box .text h3 {
+  font-weight: 400;
+  color: #111;
+}
+
+/* Testimonials */
+
+.student-testimonial {
+  background: url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1335&q=80);
+  background-size: cover;
+}
+
+.student-testimonial .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.student-testimonial .content .box {
+  width: 340px;
+  margin: 20px;
+  padding: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.student-testimonial .content .box .imgbox {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.student-testimonial .content .box .imgbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.student-testimonial .content .box .text {
+  text-align: center;
+}
+
+.student-testimonial .content .box .text p {
+  color: #666;
+  font-style: italic;
+}
+
+.student-testimonial .content .box .text h3 {
+  margin-top: 20px;
+  color: #111;
+  font-size: 1em;
+  color: #ff0157;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 991px) {
+}
+
 @media only screen and (min-width: 800px) {
   .featured,
   .portfolio {
