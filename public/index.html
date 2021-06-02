@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-height, intial-scale=1.0" />
     <title>Christ News</title>
-    <link rel="stylesheet" href="css/main.css" />
+   <link rel="stylesheet" href="css/main.css" />
 
     <!-- =====BOX ICONS===== -->
     <link
@@ -20,6 +20,7 @@
             <li><a href="https://christcollegepune.org/">College</a></li>
             <li><a href="https://ketyaa.blogspot.com/">Blog</a></li>
             <li><a href="https://christcollegepune.org/news/">Updates</a></li>
+            <li><a href="#staff">Staff</a></li>
             <li>
               <a href="www.christ.appsis.co.in/ppn/#login">Student's Login</a>
             </li>
@@ -79,6 +80,18 @@
             />
           </g>
         </svg>
+        <div class="weather">  
+          <div class="location">
+            <h1 class = "location-timezone" style="font-size: 20px;display: flex;justify-content: center;">Timezone</h1>
+          </div>
+          <div class = "temperature">
+              <div class="degree-section" style="display: flex;justify-content: center;">
+                <h2 class="location-degree">34</h2>
+                <span style="justify-content: center;display: flex;align-items: center;margin-left: 10px;">C</span>
+              </div>
+              <div class="temperature-description"style="font-weight: bold;display:flex;justify-content:center;">It's hot in here</div>
+          </div>
+        </div>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -314,7 +327,7 @@
             src="https://christcollegepune.org/wp-content/uploads/2018/08/Nilima-Shingate.jpg"
             alt="Staff Members"
           />
-          <div class="text">
+          <div class="text" id =  >
             <h3>Ms. Nilima Shingate</h3>
             <p>Dept of Computer Science</p>
           </div>
@@ -387,7 +400,7 @@
         </div>
       </div>
     </div>
-
+    <script type="text/javascript"src="main.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
       integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
@@ -476,5 +489,17 @@
       </div>
       <p>&#169; 2020 copyright all right reserved</p>
     </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<!-- Main.js -->
+  
   </body>
 </html>
