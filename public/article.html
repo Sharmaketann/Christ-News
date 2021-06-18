@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Christ News</title>
+
     <link rel="stylesheet" href="css/article.css" />
+
+    <!-- FontAwesome & Google Links-->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <div class="toggle" onclick="toggleMenu();"></div>
-
     <section class="banner" id="home">
       <div class="imgSidebar">
         <img src="./images/onlineimage.jpeg" alt="Featured News" />
@@ -61,11 +72,55 @@
       <ul class="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="#">Updates</a></li>
-        <li><a href="#">Student's Login</a></li>
+        <li>
+          <a href="https://christ.appsis.co.in/ppn/#/login">Student's Login</a>
+        </li>
         <li><a href="#">College</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
+    <section id="contact" class="contact">
+      <div class="wrapper">
+        <header>Send us a Message</header>
+        <form action="#">
+          <div class="db-field">
+            <div class="field">
+              <input type="text" name="name" placeholder="Enter your name" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Enter your email" />
+              <i class="fas fa-envelope"></i>
+            </div>
+          </div>
+          <div class="db-field">
+            <div class="field">
+              <input type="text" name="phone" placeholder="Enter your phone" />
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="field">
+              <input
+                type="text"
+                name="website"
+                placeholder="Enter your website"
+              />
+              <i class="fas fa-globe"></i>
+            </div>
+          </div>
+          <div class="message">
+            <textarea
+              placeholder="Write your message"
+              name="message"
+            ></textarea>
+            <i class="material-icons"></i>
+          </div>
+          <div class="button-area">
+            <button type="submit">Send Message</button>
+            <span>Sending your message...</span>
+          </div>
+        </form>
+      </div>
+    </section>
     <script>
       function toggleMenu() {
         const menuToggle = document.querySelector(".toggle")
@@ -74,5 +129,6 @@
         sidebar.classList.toggle("active")
       }
     </script>
+    <script src="article.js"></script>
   </body>
 </html>
