@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/article.css" />
+  </head>
+  <body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+      <div class="imgSidebar">
+        <img src="./images/onlineimage.jpeg" alt="Featured News" />
+      </div>
+      <div class="content">
+        <h4 class="logoText">Featured News</h4>
+        <div>
+          <h2>Online Exams to be Conducted this semester</h2>
+          <h4>Still a huge Problem?</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            deleniti vitae neque et, quos ea. Ducimus autem sapiente repellendus
+            quia molestiae inventore a voluptatem accusantium repellat provident
+            iure sint ad error beatae adipisci rerum nulla cupiditate possimus,
+            incidunt consectetur? Nulla, impedit consequatur, quas voluptatem ab
+            doloremque dignissimos earum fugit, suscipit consequuntur autem
+            inventore maxime voluptate. At error voluptas explicabo? Impedit,
+            sit beatae nemo nesciunt natus itaque tempore mollitia qui culpa
+            consequatur rem dolorem debitis aspernatur quam consectetur? Quaerat
+            impedit praesentium sequi odio nulla totam, aut fuga eveniet
+            possimus doloribus nobis! Itaque enim accusantium eius sit mollitia!
+            Laboriosam sapiente, vero nesciunt non quia quas tenetur ullam?
+            Alias velit commodi assumenda reiciendis debitis harum obcaecati
+            tempora cumque in, nostrum quae quibusdam maiores neque ab? Aut
+            nostrum id accusantium cum deleniti odit voluptatum corporis. Modi
+            quam maxime dolor ex molestias, eveniet voluptas, soluta doloribus
+            mollitia quia nihil eligendi repellat sint dolore libero rem nulla
+            esse placeat explicabo? Eaque non impedit nemo perferendis
+            reiciendis tempore, qui ea labore dignissimos reprehenderit
+            voluptatibus placeat rem! Labore, eveniet exercitationem. Ullam
+            quis.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="#"><img src="images/instagram.png" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/facebook.png " alt="Facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="sidebar">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">Student's Login</a></li>
+        <li><a href="#">College</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".toggle")
+        const sidebar = document.querySelector(".sidebar")
+        menuToggle.classList.toggle("active")
+        sidebar.classList.toggle("active")
+      }
+    </script>
+  </body>
+</html>
