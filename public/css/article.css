@@ -82,7 +82,7 @@ section {
 }
 
 .banner .content h2 {
-  font-size: 3em;
+  font-size: 1.5em;
   color: #333;
   line-height: 1em;
 }
@@ -181,7 +181,12 @@ h4 {
     width: 100%;
     display: inline;
   }
-
+  section {
+    padding: 40px 10px;
+  }
+  .banner .content {
+    display: contents;
+  }
   .banner .content h2 {
     font-size: 20px;
     padding-top: 40px;
@@ -201,6 +206,7 @@ h4 {
   p {
     padding: 10px;
     width: 100%;
+    height: 100%;
     font-size: 14px;
     margin-top: 1px;
   }
